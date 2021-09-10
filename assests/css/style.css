@@ -4,6 +4,37 @@
     box-sizing: border-box;
 }
 
+a{
+    color: rgba(0, 0, 0, 0.377);
+}
+
+
+/*primeiro caurosel*/
+
+.fa-chevron-right,.fa-chevron-left {
+    height: 100px;
+    font-size: 50px;
+    color: gray;
+}
+
+.fa-chevron-right:hover,
+.fa-chevron-left:hover {
+    color: orange;
+}
+
+/*segundo caurosel*/
+
+div.carousel-inner:nth-child(1) > button:nth-child(3) > span:nth-child(1) > i:nth-child(1),
+div.carousel-inner:nth-child(1) > button:nth-child(4) > span:nth-child(1) > i:nth-child(1) {
+    font-size: 25px;
+    background-color: orange;
+    color: white;
+    height: 35px;
+    padding: 5px 5px;
+}
+
+
+
 
 .buy-btn {
     color: white;
@@ -16,25 +47,20 @@
 
 
 /*carousel*/
-.carousel-inner{
-    width: 40vw;
-    height: 60vh;
-}
 
-.text-carousel{
+
+.caurosel-home .text-carousel{
     position: absolute;
     left: 20rem;
     top: 4rem;
 }
 
-.carousel-item img{
+.caurosel-home .carousel-item img{
     position: relative;
     right: -15rem;
 }
 
-#carouselExampleIndicators{
-    padding-top: 4rem;;
-}
+
 
 .activee{
     color: orange;
@@ -85,4 +111,21 @@
 
 .list-group a{
     border: none;
+}
+
+
+/*brands*/
+.brands span{
+    position: absolute;
+    left: 12rem;
+}
+
+.brands a{
+    font-size: 11px;
+}
+
+/*products*/
+#sponsor{
+    position: relative;
+    left: -3rem;
 }
