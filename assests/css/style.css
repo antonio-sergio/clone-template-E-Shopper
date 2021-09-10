@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.buy-btn {
+    color: white;
+    background-color: orange;
+}
+
+.buy-btn:hover {
+    color: black;
+}
+
+
+/*carousel*/
+.carousel-inner{
+    width: 40vw;
+    height: 60vh;
+}
+
+.text-carousel{
+    position: absolute;
+    left: 20rem;
+    top: 4rem;
+}
+
+.carousel-item img{
+    position: relative;
+    right: -15rem;
+}
+
+#carouselExampleIndicators{
+    padding-top: 4rem;;
+}
+
+.activee{
+    color: orange;
+}
+
+.text-carousel h1{
+    font-size: 50px;
+    color: silver;
+}
+
+.text-carousel h1 span{
+    color: orange;
+}
+
+.text-carousel h3 {
+    font-weight: 900;
+}
+
+.text-carousel p {
+    color: rgba(0, 0, 0, 0.473);
+    font-weight: 100;
+}
+
+/*features*/
+
+.features{
+    font-size: 11px;
+    
+}
+
+
+.features h2{
+    font-size: 14px;
+}
+
+.features > a{
+    border: none;
+}
+
+#flush-headingOne, #flush-headingTwo, #flush-headingThree, button{
+    border: none;
+}
+
+#accordionFlushExample i{
+    position: absolute;
+    left: 20rem;
+}
+
+.list-group a{
+    border: none;
+}
